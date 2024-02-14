@@ -13,7 +13,7 @@
 total_bill = float(input("What is the total amount spent?"))
 total_no_of_people = float(input("How many people eat?"))
 mathematical_operator = input("pick amathematical operator[only /and* can be used]:")
-precentage_tip = 1.12
+precentage_tip = float(input("choose percentage tip"))
 
 match mathematical_operator:
     case "/""*":
