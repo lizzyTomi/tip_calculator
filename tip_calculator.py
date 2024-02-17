@@ -12,6 +12,15 @@
 
 total_bill = float(input("What is the total amount spent?"))
 total_no_of_people = float(input("How many people eat?"))
+<<<<<<< HEAD
 percentage_tip = float(input("choose percentage:").replace(,""))
 print(input(f"The total amount each person will pay is {round(total_bill/total_no_of_people*precentage_tip, 2)}euros"))
+=======
+mathematical_operator = input("pick amathematical operator[only /and* can be used]:")
+precentage_tip = float(input("choose percentage tip"))
+
+match mathematical_operator:
+    case "/""*":
+        print(input(f"The total amount each person will pay is {round(total_bill/total_no_of_people*precentage_tip, 2)}euros"))
+>>>>>>> 958a5fa96fe0cc9a75bd12745c5b5fb5ce7b8066
 
